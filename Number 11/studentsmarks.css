@@ -1,0 +1,12 @@
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: green;
+}
+.heading-1{
+    text-align:center ; 
+    font-size: x-large;
+}
+table tr :nth-child(even){
+    background-color: greenyellow;
+}
